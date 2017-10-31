@@ -1,0 +1,20 @@
+package pkg7programming;
+import java.util.Scanner;
+
+
+public class Main {
+
+   
+    public static void main(String[] args) {
+    
+   Scanner Length = new Scanner(System.in);
+   System.out.println("Input the length of the rectangle");
+   int rec = Length.nextInt();
+   
+   Scanner Width = new Scanner(System.in);
+   System.out.println("Input the width of the rectangle");
+   int tangle = Width.nextInt();
+   
+   int result = rec * tangle;
+   
+   System.out.println("The area of the rectangle is " + result +".");
