@@ -1,0 +1,29 @@
+package pkg7programming;
+import java.util.Scanner;
+
+
+public class Main {
+
+   
+    public static void main(String[] args) {
+    
+    Scanner testNum = new Scanner(System.in);
+    System.out.println("Input a number");
+    int test = testNum.nextInt();
+    
+        if (test >= 20) {
+            System.out.println("You achieved an A.");
+            
+        }
+        
+        if (test >= 10 &&  test <=19) {
+            System.out.println("You achieved a C.");
+            
+        }
+        
+        if (test < 10) {
+            System.out.println("You have failed.");
+            
+        }
+    
+    
