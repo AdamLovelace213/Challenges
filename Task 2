@@ -1,0 +1,18 @@
+package pkg7programming;
+import java.util.Scanner;
+
+
+public class Main {
+
+   
+    public static void main(String[] args) {
+    
+      Scanner country = new Scanner(System.in);
+      System.out.println("Input a country");
+      String name = country.next();
+      
+      Scanner Population = new Scanner(System.in);
+      System.out.println("Input a the population of the country");
+      String pop = Population.next();
+ 
+      System.out.println("The country" + name + "has a population of " + pop + ".");
