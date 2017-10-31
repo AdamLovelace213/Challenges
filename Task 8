@@ -1,0 +1,44 @@
+package pkg7programming;
+import java.util.Scanner;
+
+
+public class Main {
+
+   
+    public static void main(String[] args) {
+    
+   Scanner Maths = new Scanner(System.in);
+   System.out.println("Ibpnut a number between 1-100.");
+   int Ma = Maths.nextInt();
+  
+   System.out.println("Input another number between 1-100.");
+   int ths = Maths.nextInt();
+   
+        System.out.println(Ma);
+        System.out.println(ths);
+        
+       
+   
+   System.out.println("Would you like to Add, subtract, divide or multiply these numbers together?");
+   String Bodmas = Maths.next();
+   
+        if (Bodmas == "Add" ) {
+            int result = Ma + ths;
+            System.out.println(result);
+            
+        }
+        
+        if (Bodmas == "Subtract") {
+            int result = Ma - ths;
+            System.out.println(result);
+        }
+        
+        if (Bodmas == "Divide") {
+            int result = Ma / ths;
+            System.out.println(result);
+        }
+        
+        if (Bodmas == "Multiply") {
+            int result = Ma * ths;
+            System.out.println(result);
+        }
