@@ -1,0 +1,20 @@
+package pkg7programming;
+import java.util.Scanner;
+
+
+public class Main {
+
+   
+    public static void main(String[] args) 
+    
+   Scanner distance = new Scanner(System.in);
+   System.out.println("What distance did you travel in Km");
+   int Spe = distance.nextInt();
+   
+   Scanner time = new Scanner(System.in);
+   System.out.println("How long did it take you to travel in hours");
+   int ed = time.nextInt();
+   
+   int Speed = Spe / ed;
+    
+    System.out.println("Your speed was " + Speed + "Km/h.");
