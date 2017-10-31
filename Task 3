@@ -1,0 +1,24 @@
+package pkg7programming;
+import java.util.Scanner;
+
+
+public class Main {
+
+   
+    public static void main(String[] args) {
+    
+      Scanner num1 = new Scanner(System.in);
+      System.out.println("Input a number");
+      int number1 = num1.nextInt();
+      
+      Scanner num2 = new Scanner(System.in);
+      System.out.println("Input another number");
+      int number2 = num2.nextInt();
+      
+      int result = number1 / number2;
+      
+      
+      System.out.println("When " + number1 + " is divided by " + number2 + " it equals " + result);
+      
+    
+    
